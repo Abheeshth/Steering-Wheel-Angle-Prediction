@@ -7,7 +7,7 @@ images. Images of the dataset are recorded from a car dashcam with
 labelled steering angles. It contains continuous images of the video. Dataset is later
 plotted into two categories: train and test. After splitting the dataset convolutional
 neural networks (CNN) is used to train the model.
-![alt img](ss.PNG)<br>
+
 ### Image Preprocessing
 Images of the dataset are divided into training and test. Images of both sets are
 cropped from the top and only lower (150 pixels) part is taken we are only concerned 
@@ -17,6 +17,11 @@ normalized (dividing by 255) for easier computation
 ### Model Architecture
 
 
+![alt img](Architecture.PNG)<br>
+
+### Output
+![alt img](ss.PNG)<br>
+![alt img](ss1.PNG)<br>
 
 
 
